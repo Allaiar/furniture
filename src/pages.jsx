@@ -64,7 +64,7 @@ function Page() {
     {
       img: Table,
       title: "The Dandy chair",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 11000,
       id: "f0",
@@ -72,7 +72,7 @@ function Page() {
     {
       img: Table2,
       title: "Rustic Vase Set",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "chair",
       price: 110,
       id: "f1",
@@ -80,7 +80,7 @@ function Page() {
     {
       img: Table3,
       title: "The Silky Vase",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: "f2",
@@ -88,7 +88,7 @@ function Page() {
     {
       img: Table4,
       title: "The Lucy Lamp",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: "f3",
@@ -96,7 +96,7 @@ function Page() {
     {
       img: Table9,
       title: "The Dandy chair",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "chair",
       price: 110,
       id: "f4",
@@ -104,7 +104,7 @@ function Page() {
     {
       img: Table6,
       title: "Rustic Vase Set",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: 5,
@@ -112,7 +112,7 @@ function Page() {
     {
       img: Table7,
       title: "table",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: "f6",
@@ -120,7 +120,7 @@ function Page() {
     {
       img: Table8,
       title: "table",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "chair",
       price: 110,
       id: "f7",
@@ -130,7 +130,7 @@ function Page() {
     {
       img: Chair,
       title: "Chair",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: "c0",
@@ -138,7 +138,7 @@ function Page() {
     {
       img: Chair2,
       title: "Chair",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: "c1",
@@ -146,7 +146,7 @@ function Page() {
     {
       img: Chair3,
       title: "Chair",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: "c2",
@@ -154,7 +154,7 @@ function Page() {
     {
       img: Chair4,
       title: "Chair",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: "c3",
@@ -162,7 +162,7 @@ function Page() {
     {
       img: Chair5,
       title: "Chair",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: "c4",
@@ -170,7 +170,7 @@ function Page() {
     {
       img: Chair7,
       title: "Chair",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: "c5",
@@ -178,7 +178,7 @@ function Page() {
     {
       img: Chair9,
       title: "Chair",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: "c6",
@@ -186,7 +186,7 @@ function Page() {
     {
       img: Chair11,
       title: "Chair",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: "c7",
@@ -194,7 +194,7 @@ function Page() {
     {
       img: Chair14,
       title: "Chair",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: "c8",
@@ -202,7 +202,7 @@ function Page() {
     {
       img: Chair15,
       title: "Chair",
-      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+      subtext: "Lorem ipsum dolor sit, amet consectetur adipisicing",
       view: "table",
       price: 110,
       id: "c9",

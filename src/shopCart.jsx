@@ -32,7 +32,8 @@ function ShopCart({ setCart }) {
   const handleWhatsAppOrder = () => {
     if (!itemInCart || itemInCart.length === 0) {
       // Cart is empty, do not proceed with the order
-      toast.info("Корзина пуста. Добавьте товары перед оформлением доставки.");    }
+      toast.info("Корзина пуста. Добавьте товары перед оформлением доставки.");
+    }
 
     const phoneNumber = "+996707178620";
     let message = "Здравствуйте, я хочу заказать следующие товары: \n";
@@ -53,12 +54,12 @@ function ShopCart({ setCart }) {
       <div className="cart-container">
         <div className="flex flex-col gap-[2vh]">
           <div className="flex justify-between">
-          <button onClick={() => setCart(false)} className="back-button">
-            <ion-icon name="arrow-back-outline"></ion-icon>
-          </button>
-          <Link to="/" onClick={() => setCart(false)} className="add-more-link">
+            <button onClick={() => setCart(false)} className="back-button">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </button>
+            {/* <Link to="/" onClick={() => setCart(false)} className="max-sm:text-sm font-semibold">
             Добавить еще
-          </Link>
+          </Link> */}
           </div>
           <div className="cart-items">
             {itemInCart && itemInCart.length > 0 ? (
@@ -70,13 +71,13 @@ function ShopCart({ setCart }) {
             )}
           </div>
         </div>
-                <div className="cart-content">
+        <div className="cart-content border-t border-zinc-300">
           <div className="cart-summary">
             <div className="more-info">
               <div className="total-amount">
-                <p className="cart-subtext">Сумма:</p>
+                <p className="">Сумма:</p>
                 <div className="flex items-center">
-                  <p className="cart-count">
+                  <p className="">
                     {itemInCart && itemInCart.length > 0
                       ? itemInCart.reduce(
                           (total, item) => total + item.price,
@@ -84,33 +85,33 @@ function ShopCart({ setCart }) {
                         )
                       : 0}
                   </p>
-                  <p className="cart-count ml-1">сом</p>
+                  <p className=" ml-1">сом</p>
                 </div>
               </div>
-            <hr className="my-2" />
+              <hr className="my-2" />
               <div className="delivery-info">
-                <p className="cart-subtext">Доставка по городу:</p>
+                <p className="">Доставка по городу:</p>
                 <div className="flex items-center">
-                  <p className="cart-count">200</p>
-                  <p className="cart-count ml-1">сом</p>
+                  <p className="">200</p>
+                  <p className=" ml-1">сом</p>
                 </div>
               </div>
             </div>
             <hr className="my-2" />
             <div className="total-info">
-              <p className="cart-subtext">Итого:</p>
+              <p className="">Итого:</p>
               <div className="flex items-center">
-                <p className="cart-count">{calculateTotal()} сом</p>
+                <p className="">{calculateTotal()} сом</p>
               </div>
             </div>
           </div>
-          <h1 className="text-[1.5vw] -mb-1 text-[#777155]">
+          <h1 className="text-sm -mb-1 text-[#777155]">
             Перейдите на Whatsapp для оформления доставки
           </h1>
           <button
             onClick={handleWhatsAppOrder}
             disabled={!itemInCart || itemInCart.length === 0}
-            className={`checkout-btn mt-2 py-[1vw] rounded-[1vw] text-[2vmin] ${
+            className={`checkout-btn mt-2 py-2 rounded-md text-sm ${
               (!itemInCart || itemInCart.length === 0) && "disabled"
             }`}
           >

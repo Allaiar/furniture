@@ -117,11 +117,11 @@ function Nav({ furniture, scrollToComponent, scrollToComponentChair }) {
         <div>
           <div
             onClick={handleCartClick}
-            className="cursor-pointer text-3xl relative text-black bg-transparent focus:outline-none"
+            className="cursor-pointer text-3xl fixed z-[1000] text-white focus:outline-none left-7 bottom-7 bg-indigo-900 px-4 pt-4 pb-2 rounded-full"
           >
             <ion-icon name="cart-outline"></ion-icon>
             {itemInCart.length > 0 && (
-              <span className="count">{itemInCart.length}</span>
+              <span className="count">{itemInCart.lengthц}</span>
             )}
           </div>
         </div>
